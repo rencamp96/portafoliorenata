@@ -19,6 +19,8 @@ var por = 150;
 // FUNCIONES ///////////////////////////////////
 ////////////////////////////////////////////////
 
+p5.disableFriendlyErrors = true;
+
 function setup() {
   canvas = createCanvas(windowWidth, 3300);
   canvas.position(0,0);
